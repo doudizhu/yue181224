@@ -4,16 +4,24 @@
 html
 	font-size: 75%
 
+.cd-timeline-block
+	margin-top: 50px
 .christmas-bg
-	background-image: url('/static/img/pages/demo/demo/20181224-0.gif')
-	background-position: top center
-	&:before
-		border-right-color: #aa0c0c
-	&>h2,&>span
-		color: gold
-		text-shadow: -1px -1px #fff, 1px 1px #666
-	&>p>img
-		border-radius: 50%
+	&>.cd-timeline-content
+		background-image: url('/static/img/pages/demo/demo/20181224-0.gif')
+		background-position: top center
+		&>img:first-child
+			position: absolute
+			width: 100px
+			top: -39px
+			right: -20px
+		:before
+			border-right-color: #aa0c0c
+		&>h2,&>span
+			color: gold
+			text-shadow: -1px -1px #fff, 1px 1px #666
+		&>p>img
+			border-radius: 50%
 
 
 #jsi-snow-container
@@ -26,6 +34,8 @@ html
 main
 	position: relative
 	z-index: 999
+	overflow-x: hidden
 body
-	background-color: #071a07
-
+	// background-color: #071a07
+	background-color: #052d0c
+	padding-top: 20px
