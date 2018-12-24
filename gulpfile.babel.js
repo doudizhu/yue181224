@@ -17,7 +17,7 @@ const path = {
         // 生成（编译文件）
         // static:'static/pages',
         static:'templates',
-        // *监控（全部文件）
+        // *监控（全部文2件）
         watch:'src/pug/**/*.pug',
     },
 
