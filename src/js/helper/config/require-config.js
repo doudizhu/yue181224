@@ -35,7 +35,7 @@ require.config({
         // 三.页面
         // 样例/demo
         // 样例页
-        demoDemo:'pages/demo/demoDemo',
+        yueDemo:'pages/yue/yueDemo',
 
         // 四.插入公共页面
 
